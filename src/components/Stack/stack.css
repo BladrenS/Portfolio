@@ -1,0 +1,14 @@
+.section--grey{
+   background-color: rgb(12, 12, 12);
+}
+
+.stacks{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.stack{
+   margin: 25px 75px;
+}

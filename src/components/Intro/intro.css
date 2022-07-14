@@ -1,0 +1,140 @@
+.intro__inner{
+   height: 700px;
+   display: flex;
+   align-items: center;
+}
+
+.under{
+   margin-top: 60px;
+}
+
+.inner__block{
+   flex: 50% 0;
+   text-align: left;
+}
+
+.right{
+   background-image: url('../../assets/bg.webp');
+   background-position: 90% 50%;
+   background-size: cover;
+   height: 95%;
+   animation: scroll 30s linear infinite alternate;
+   position: relative;
+   overflow: hidden;
+}
+
+@keyframes scroll {
+   100%{
+    background-position: 0px 0px;
+  }
+}
+
+.rama{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   width: 100.5%;
+   height: 100%;
+}
+
+.greeting{
+   font-size: 1.2em;
+   display: flex;
+   align-items: center;
+   color: rgb(255, 87, 9);
+   margin-bottom: 20px;
+}
+
+.rock{
+   margin-left: 10px;
+}
+
+.doing{
+   font-size: 4.2rem;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.doing__text{
+   color: rgb(148, 148, 148);
+   width: 90%;
+   margin-bottom: 40px;
+   line-height: 1.4;
+   font-size: 1.1rem;
+}
+
+.lants{
+   background-image: url('../../assets/lantern.png');
+   width: 70px;
+   height: 87px;
+   position: absolute;
+   bottom: -70px;
+   left: 0px;
+   z-index: 9;
+   animation-duration: 35s;
+   animation-iteration-count: infinite;
+   animation-name: lants;
+   animation-timing-function: linear;
+}
+
+
+.two{
+   bottom: 150px;
+   left: -100px;
+   animation-duration: 25s;
+   animation-name: lants-2;
+}
+
+.three{
+   bottom: 400px;
+   left: -200px;
+   animation-duration: 40s;
+   animation-name: lants-3;
+}
+
+.four{
+   bottom: -150px;
+   left: 350px;
+   animation-duration: 20s;
+   animation-name: lants-4;
+}
+
+
+@keyframes lants {
+   0%   { transform: translateY(0px) translateX(100px); }
+   100% { transform: translateY(-850px) translateX(300px); }
+}
+
+@keyframes lants-2 {
+   0%   { transform: translateY(-77px) translateX(0px); }
+   100% { transform: translateY(-300px) translateX(600px); }
+}
+
+@keyframes lants-3 {
+   0%   { transform: translateY(0px) translateX(000px); }
+   100% { transform: translateY(200px) translateX(770px); }
+}
+
+@keyframes lants-4 {
+   0%   { transform: translateY(0px) translateX(100px); }
+   100% { transform: translateY(-900px) translateX(-100px); }
+}
+
+@media (max-width: 768px) {
+   .intro__inner{
+      flex-direction: column;
+      align-items: stretch;
+      height: 850px;
+   }
+
+   .under{
+      margin-top: 90px;
+   }
+}
+
+@media (max-width: 768px) {
+
+}
+

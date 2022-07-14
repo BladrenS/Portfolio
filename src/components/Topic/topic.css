@@ -1,0 +1,43 @@
+.topic__header{
+   color: rgb(255, 255, 255);
+   padding-top: 60px;
+}
+
+.topic__head{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   letter-spacing: 2px;
+   line-height: 2.3;
+   font-size: 2.2em;
+   font-weight: bold;
+   height: 100px;
+}
+
+.p{
+   background: url("../../assets/portfolio.svg") no-repeat center;
+   background-size: 50%;
+}
+
+.s{
+   background: url("../../assets/services.svg") no-repeat center;
+   background-size: 50%;
+}
+
+.t{
+   background: url("../../assets/test.svg") no-repeat center;
+   background-size: 65%;
+}
+
+.c{
+   background: url("../../assets/contact.svg") no-repeat center;
+   background-size: 55%;
+}
+
+
+.topic__text{
+   color: rgb(151, 151, 151);
+   width: 50%;
+   margin: 0 auto;
+   font-size: 1.1rem;
+}

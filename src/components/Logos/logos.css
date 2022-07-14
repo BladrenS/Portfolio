@@ -1,0 +1,14 @@
+.section--grey{
+   background-color: rgb(12, 12, 12);
+}
+
+.logos{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.logo{
+   margin: 5px 34px;
+}

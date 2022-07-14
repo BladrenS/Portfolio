@@ -1,0 +1,49 @@
+.whatido{
+   display: flex;
+   justify-content: space-between;
+   padding: 60px 0px 80px;
+}
+
+.item{
+   display: flex;
+   align-items: flex-end;
+   flex: 22% 0;
+   background-color: rgb(32, 30, 30);
+   border-radius: 20px;
+   position: relative;
+}
+
+.icon{
+   position: absolute;
+   top: 25px;
+   left: 25px;
+}
+
+.item__inner{
+   padding: 15px;
+   text-align: left;
+   margin-top: 130px;
+}
+
+.item__header{
+   font-size: 1.3em;
+   font-weight: bold;
+}
+
+.item__text{
+   margin-top: 10px;
+   color: rgb(156, 156, 156);
+
+}
+
+@media (max-width: 768px) {
+   .whatido{
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+  .item{
+   flex: 45% 0;
+   margin: 15px 0;
+  }
+}
